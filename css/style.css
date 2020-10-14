@@ -193,3 +193,8 @@ footer {
   color: grey;
   font-size: 30px;
 }
+.icon-box:hover i {
+  color: rgba(000, 000, 000, 001);
+  cursor: pointer;
+
+}
