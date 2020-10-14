@@ -74,13 +74,12 @@ ul#menu a {
   height: 100%;
   color: white;
   text-decoration: none;
-
-  }
+}
 
 ul#menu li:hover {
   background-color: rgba(000, 244, 244, 0.4);
   cursor: pointer;
-  }
+}
 
 main {
   width: 100%;
@@ -99,7 +98,6 @@ main::after {
   box-shadow: 9px 9px 12px -10px rgba(0,0,0,1);
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
-
 }
 
 .middle-col {
@@ -135,7 +133,8 @@ main::after {
 }
 
 .right-col h2 {
-  padding: 8px;}
+  padding: 8px;
+}
 
 .themes ul {
   list-style-type: none;
@@ -145,8 +144,8 @@ main::after {
   padding-bottom: 5px;
   color: green;
   text-decoration: none;
-
 }
+
 .themes i {
   color: orange;
   font-size: 30px;
@@ -160,13 +159,10 @@ h3 {
   margin-left: 5px;
 }
 
-
-
 main p {
   padding: 8px;
   font-weight: bold;
 }
-
 
 footer {
   width: 100%;
@@ -179,6 +175,10 @@ footer {
 .footer-top {
   border-bottom: 1px solid grey;
   text-align: center;
+}
+
+.footer-top i {
+  color: grey;
 }
 
 .footer-bottom::after {
