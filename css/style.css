@@ -6,11 +6,11 @@
 
 body {
   width: 900px;
-  margin: 0 auto;
   height: 100vh;
   background-image: url(../img/pattern.png);
   background-size: cover;
   padding: 20px 0;
+  margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -62,10 +62,10 @@ ul#menu {
 }
 
 ul#menu > li {
+  color: #00C1C2;
   display: inline-block;
   padding: 0 10px;
   font-size: 12px;
-  color: #00C1C2;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -95,9 +95,9 @@ main::after {
 .themes {
   float: left;
   width: 20%;
-  box-shadow: 9px 9px 12px -10px rgba(0,0,0,1);
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 5px;
+  box-shadow: 9px 9px 12px -10px rgba(0,0,0,1);
 }
 
 .middle-col {
@@ -114,7 +114,6 @@ main::after {
   float: left;
   width: 20%;
   border-radius: 5px;
-  position: relative;
 }
 
 .widget {
@@ -137,15 +136,15 @@ main::after {
 }
 
 .themes a {
-  padding-bottom: 5px;
   color: green;
+  padding-bottom: 5px;
   text-decoration: none;
 }
 
 .themes i.fas.fa-rss {
+  float: left;
   color: orange;
   font-size: 30px;
-  float: left;
   margin-left: 3px;
 }
 
@@ -191,6 +190,7 @@ footer {
 }
 
 .icon-box > i {
-  font-size: 30px;
   color: grey;
+  font-size: 30px;
+
 }
